@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.bg {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 35px;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 50px;
+  color: #1e293b;
+}
+.search-container {
+  padding: 8px;
+  background-color: transparent;
+  border: 1px solid #7b8794;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-el {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #1e293b;
+  font-family: 'Bree Serif';
+  font-size: 17px;
+  width: 90%;
+}
+.search-icon {
+  width: 10%;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px;
+}
+.app-list-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
